@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+
+}
+.number-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #b1a7a7;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.bonus-number {
+  background-color: #a3d6ce; /* Couleur d'arrière-plan différente pour le dernier chiffre */
+}
+
